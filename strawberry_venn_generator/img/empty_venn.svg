@@ -3,185 +3,92 @@
 <!-- Venn diagram created by Tabea Kischka, part of the "strawberry_venn" tool! -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="500"
-   height="500"
-   viewBox="0 0 499.99998 500.00001"
-   id="svg4258"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="venni.svg">
-  <defs
-     id="defs4260" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="267.1126"
-     inkscape:cy="237.76937"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1440"
-     inkscape:window-height="851"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata4263">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+   height="600"
+   viewBox="0 0 500 500"
+   version="1.1">
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-552.36216)">
+
     <circle
        r="125"
-       cy="864.36218"
-       cx="174.99997"
-       id="circle4871"
-       style="opacity:1;fill:#d7191c;fill-opacity:0.78431373;stroke:none;stroke-width:4.90199995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       cx="175"
+       cy="865"
+       style="fill:#d7191c;fill-opacity:0.75"
+    />
+
     <circle
-       style="opacity:1;fill:#abdda4;fill-opacity:0.78431373;stroke:none;stroke-width:4.90199995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle4879"
+       r="125"
        cx="325"
-       cy="864.36218"
-       r="125" />
+       cy="865"
+       style="fill:#abdda4;fill-opacity:0.75;"
+    />
+
     <circle
        r="125"
-       cy="740.36218"
        cx="250"
-       id="circle4881"
-       style="opacity:1;fill:#2b83ba;fill-opacity:0.78431373;stroke:none;stroke-width:4.90199995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="250.166"
-       y="594.505"
-       id="text4904"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4906"
-         x="250.166"
-         y="594.505">A_tot</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4908"
-       y="987.71936"
-       x="431.59457"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="987.71936"
-         x="431.59457"
-         id="tspan4910"
-         sodipodi:role="line">B_tot</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="58.023144"
-       y="983.79077"
-       id="text4912"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4914"
-         x="58.023144"
-         y="983.79077">C_tot</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4916"
-       y="825.29382"
-       x="250.166"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="825.29382"
-         x="250.166"
-         id="tspan4918"
-         sodipodi:role="line">ABC</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="250.166"
-       y="705.29382"
-       id="text4920"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4922"
-         x="250.166"
-         y="705.29382">A_only</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4924"
-       y="884.57953"
-       x="370.16602"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="884.57953"
-         x="370.16602"
-         id="tspan4926"
-         sodipodi:role="line">B_only</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="132.16602"
-       y="884.57953"
-       id="text4928"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4930"
-         x="132.16602"
-         y="884.57953">C_only</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="186.166"
-       y="785.29382"
-       id="text4932"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4934"
-         x="186.166"
-         y="785.29382">A_C</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4936"
-       y="785.29382"
-       x="318.16602"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="785.29382"
-         x="318.16602"
-         id="tspan4938"
-         sodipodi:role="line">A_B</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="250.62498"
-       y="904.93665"
-       id="text4940"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4942"
-         x="250.62498"
-         y="904.93665">B_C</tspan></text>
+       cy="740"
+       style="fill:#2b83ba;fill-opacity:0.75;"
+    />
+
+    <text style="font-size:20px;font-family:sans-serif;font-weight:bold;">
+      <tspan y="570" x="20">
+        venn_title
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="600" x="230">
+        A_tot
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="1020" x="360">
+        B_tot
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="1020" x="80">
+        C_tot
+      </tspan>
+    </text>
+
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="825" x="230">
+        ABC
+      </tspan>
+    </text>
+
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="700" x="230">
+        A_only
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="880" x="350">
+        B_only
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="880" x="110">
+        C_only
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="780" x="180">
+        A_C
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="780" x="320">
+        A_B
+      </tspan>
+    </text>
+    <text style="font-size:20px;font-family:sans-serif;">
+      <tspan y="900" x="230">
+        B_C
+      </tspan>
+    </text>
   </g>
 </svg>

@@ -65,5 +65,8 @@ class TestOutputFile(TestCase):
 
         with open(correct_venn_filepath, 'r') as correct_venn_filehandle:
             correct_venn_svg = correct_venn_filehandle.read()
-        test_venn = strawberry_venn_generator.get_svg_diagram_content(empty_venn, data, ["f1", "f2", "f3"])
+        test_venn = strawberry_venn_generator.get_svg_diagram_content(empty_venn,
+                                                                      data,
+                                                                      ["f1", "f2", "f3"],
+                                                                      "venn_title")
         self.assertEqual(correct_venn_svg, test_venn)

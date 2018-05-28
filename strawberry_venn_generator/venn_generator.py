@@ -17,6 +17,10 @@ def get_input_args():
     parser.add_argument('output_file',
                         help="Name of the venn diagram output file",
                         type=str)
+    parser.add_argument('title',
+                        help="Title for venn diagram",
+                        default="",
+                        type=str)
     parser.add_argument('file',
                         help="Files with data to compare",
                         nargs=3,
@@ -81,7 +85,7 @@ def get_total_length(set_list, which):
     return len(set_list[which])
 
 
-def get_svg_diagram_content(empty_venn, set_list, names):
+def get_svg_diagram_content(empty_venn, set_list, names, title):
     """
     Replaces the names and numbers in the svg file content.
     :param empty_venn: str with content of svg file
@@ -109,6 +113,9 @@ def get_svg_diagram_content(empty_venn, set_list, names):
     # replace intersections between three datasets
     svg = svg.replace("ABC", "%s" % (get_intersection_of_all_three(set_list)))
 
+    # replace title
+    svg = svg.replace("venn_title", "%s" % (title))
+
     return svg
 
 
@@ -120,6 +127,8 @@ def write_into_new_svg_file(svg_content, filename):
 def main():
     empty_venn = import_empty_venn_svg()
     args = get_input_args()
+    title = args.title
     set_list = read_files(args.file)
-    new_svg = get_svg_diagram_content(empty_venn, set_list, args.name)
+    new_svg = get_svg_diagram_content(empty_venn, set_list, args.name, title)
     write_into_new_svg_file(new_svg, args.output_file)
+    print "Wrote new svg file %s!" % args.output_file
