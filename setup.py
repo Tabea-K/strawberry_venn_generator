@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='strawberry_venn_generator',
-      version='0.1',
+      version='0.2',
       description='A venn diagram generator that creates an image.',
       long_description=readme(),
       #url='http://github.com/Tabea-K',

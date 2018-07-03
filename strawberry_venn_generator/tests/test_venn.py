@@ -35,15 +35,15 @@ class TestVennNumbers(TestCase):
 
     def test_intersection_of_all(self):
         data = self.get_data()
-        self.assertEqual(strawberry_venn_generator.get_intersection_of_all_three(data), 4)
+        self.assertEqual(strawberry_venn_generator.get_intersection_of_all_three(data), 9)
 
     def test_intersection_of_two(self):
         data = self.get_data()
-        self.assertEqual(strawberry_venn_generator.get_intersection_of_two_sets(data, [0,1]), 6)
+        self.assertEqual(strawberry_venn_generator.get_intersection_of_two_sets(data, [0,1]), 33)
 
     def test_unique_for_a_set(self):
         data = self.get_data()
-        self.assertEqual(strawberry_venn_generator.get_unique_for_a_set(data, 0), 5)
+        self.assertEqual(strawberry_venn_generator.get_unique_for_a_set(data, 0), 803)
 
 
 class TestOutputFile(TestCase):

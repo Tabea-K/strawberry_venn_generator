@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 from os import path
 import argparse
+import logging
+
 
 def import_empty_venn_svg():
     """
@@ -13,7 +15,7 @@ def import_empty_venn_svg():
 
 
 def get_input_args():
-    parser = argparse.ArgumentParser(description="(description follows)")
+    parser = argparse.ArgumentParser(description="Tool to generate venn diagrams based on three files with data.")
     parser.add_argument('output_file',
                         help="Name of the venn diagram output file",
                         type=str)
@@ -22,13 +24,25 @@ def get_input_args():
                         default="",
                         type=str)
     parser.add_argument('file',
-                        help="Files with data to compare",
+                        help="The three files with datasets to compare",
                         nargs=3,
                         type=argparse.FileType('r'))
     parser.add_argument('name',
-                        help="Names to use for the 3 datasets (must be given in the same order as the files!)",
+                        help="Three names to use for the 3 datasets (must be given in the same order as the files!)",
                         nargs=3,
                         type=str)
+    parser.add_argument("-d",
+                        help="run in debug mode, print lots of information",
+                        action="store_const",
+                        dest="loglevel",
+                        const=logging.DEBUG,
+                        default=logging.WARNING)
+    parser.add_argument("-v",
+                        help="run in verbose mode, print some more information",
+                        action="store_const",
+                        dest="loglevel",
+                        const=logging.INFO,
+                        default=logging.WARNING)
     args = parser.parse_args()
     return args
 
@@ -125,10 +139,22 @@ def write_into_new_svg_file(svg_content, filename):
 
 
 def main():
-    empty_venn = import_empty_venn_svg()
     args = get_input_args()
+
+    # set up logging module
+    logging.basicConfig(format='[%(asctime)s - %(levelname)s] %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S',
+                        level=args.loglevel)
+    logger = logging.getLogger(__name__)
+    logger.debug("logging set up!")
+    logger.debug("All arguments: %s" % args)
+    logger.info("Script starts!")
+
+    empty_venn = import_empty_venn_svg()
     title = args.title
+    logger.info("Will use %s as the title of the diagram." % title)
     set_list = read_files(args.file)
+    logger.debug("set_list: %s" % set_list)
     new_svg = get_svg_diagram_content(empty_venn, set_list, args.name, title)
     write_into_new_svg_file(new_svg, args.output_file)
-    print "Wrote new svg file %s!" % args.output_file
+    logger.info("Wrote new svg file %s!" % args.output_file)
