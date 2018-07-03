@@ -17,8 +17,9 @@ python setup.py install
 
 Or, using pip, you can omit the step of cloning the repository and simply run
 ```
-pip install git+git://github.com/github.com/Tabea-K/strawberry_venn_generator.git
+pip install git+https://github.com/Tabea-K/strawberry_venn_generator.git
 ```
+
 # Usage
 To run the strawberry venn generator, run from any directory:
 
